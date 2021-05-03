@@ -1,13 +1,12 @@
-use_frameworks!
+source '/Users/cweymann/workspace/Lab/localPrivateRepo.git'
 
-platform :ios, '9.0'
+use_modular_headers!
+
+platform :ios, '12.3'
 
 target 'SwiftAccessObjcConstants_Example' do
   pod 'SwiftAccessObjcConstants', :path => '../'
-
   target 'SwiftAccessObjcConstants_Tests' do
     inherit! :search_paths
-
-    
   end
 end

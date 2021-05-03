@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276DCE0EB33E1184ADD513B0 /* libPods-SwiftAccessObjcConstants_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF16EB435FE469FD3317C869 /* libPods-SwiftAccessObjcConstants_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6B44065139BCA7F7FDF0360B /* Pods_SwiftAccessObjcConstants_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9301CEE818900186A61E2C /* Pods_SwiftAccessObjcConstants_Example.framework */; };
-		DEF7C371ECDFD9D01AAAC59D /* Pods_SwiftAccessObjcConstants_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587E6F02A83D7229280D0253 /* Pods_SwiftAccessObjcConstants_Tests.framework */; };
+		FB7F24969FF01CB46A6A30BA /* libPods-SwiftAccessObjcConstants_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3E02D8BC0716CAE1D32F1 /* libPods-SwiftAccessObjcConstants_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		587E6F02A83D7229280D0253 /* Pods_SwiftAccessObjcConstants_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAccessObjcConstants_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B9F5D4577DC57A636C2CA41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B9F5D4577DC57A636C2CA41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftAccessObjcConstants_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAccessObjcConstants_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +39,14 @@
 		607FACE51AFB9204008FA782 /* SwiftAccessObjcConstants_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAccessObjcConstants_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E32DE8716680F3FB4DC331C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8399F1D269F29F915474258F /* SwiftAccessObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftAccessObjcConstants.podspec; path = ../SwiftAccessObjcConstants.podspec; sourceTree = "<group>"; };
+		6E32DE8716680F3FB4DC331C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8399F1D269F29F915474258F /* SwiftAccessObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftAccessObjcConstants.podspec; path = ../SwiftAccessObjcConstants.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3C937AA0B09C0ECB204D231 /* Pods-SwiftAccessObjcConstants_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAccessObjcConstants_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftAccessObjcConstants_Tests/Pods-SwiftAccessObjcConstants_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B576DDDA95EAB3562A99FEBF /* Pods-SwiftAccessObjcConstants_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAccessObjcConstants_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftAccessObjcConstants_Tests/Pods-SwiftAccessObjcConstants_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE75D3B79A23B75183A5A7A4 /* Pods-SwiftAccessObjcConstants_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAccessObjcConstants_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftAccessObjcConstants_Example/Pods-SwiftAccessObjcConstants_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D8D3E02D8BC0716CAE1D32F1 /* libPods-SwiftAccessObjcConstants_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftAccessObjcConstants_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA842BACB0E210F113553349 /* Pods-SwiftAccessObjcConstants_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAccessObjcConstants_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftAccessObjcConstants_Example/Pods-SwiftAccessObjcConstants_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD9301CEE818900186A61E2C /* Pods_SwiftAccessObjcConstants_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAccessObjcConstants_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF16EB435FE469FD3317C869 /* libPods-SwiftAccessObjcConstants_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftAccessObjcConstants_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B44065139BCA7F7FDF0360B /* Pods_SwiftAccessObjcConstants_Example.framework in Frameworks */,
+				276DCE0EB33E1184ADD513B0 /* libPods-SwiftAccessObjcConstants_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF7C371ECDFD9D01AAAC59D /* Pods_SwiftAccessObjcConstants_Tests.framework in Frameworks */,
+				FB7F24969FF01CB46A6A30BA /* libPods-SwiftAccessObjcConstants_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		4A6FB595EA6CE63DA851ADA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD9301CEE818900186A61E2C /* Pods_SwiftAccessObjcConstants_Example.framework */,
-				587E6F02A83D7229280D0253 /* Pods_SwiftAccessObjcConstants_Tests.framework */,
+				FF16EB435FE469FD3317C869 /* libPods-SwiftAccessObjcConstants_Example.a */,
+				D8D3E02D8BC0716CAE1D32F1 /* libPods-SwiftAccessObjcConstants_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,7 +86,6 @@
 				B576DDDA95EAB3562A99FEBF /* Pods-SwiftAccessObjcConstants_Tests.debug.xcconfig */,
 				B3C937AA0B09C0ECB204D231 /* Pods-SwiftAccessObjcConstants_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7B40416C5FF1EF7638B2D9A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +211,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Q3T2C9F2DF;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Q3T2C9F2DF;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,24 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B40416C5FF1EF7638B2D9A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftAccessObjcConstants_Example/Pods-SwiftAccessObjcConstants_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftAccessObjcConstants/SwiftAccessObjcConstants.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftAccessObjcConstants.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftAccessObjcConstants_Example/Pods-SwiftAccessObjcConstants_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,10 +461,11 @@
 			baseConfigurationReference = FA842BACB0E210F113553349 /* Pods-SwiftAccessObjcConstants_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
 				INFOPLIST_FILE = SwiftAccessObjcConstants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.avm.demo.SwiftAccessObjcConstants-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +477,11 @@
 			baseConfigurationReference = BE75D3B79A23B75183A5A7A4 /* Pods-SwiftAccessObjcConstants_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
 				INFOPLIST_FILE = SwiftAccessObjcConstants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.avm.demo.SwiftAccessObjcConstants-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B576DDDA95EAB3562A99FEBF /* Pods-SwiftAccessObjcConstants_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3C937AA0B09C0ECB204D231 /* Pods-SwiftAccessObjcConstants_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q3T2C9F2DF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

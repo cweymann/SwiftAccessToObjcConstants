@@ -1,0 +1,27 @@
+{
+  "name": "SwiftAccessObjcConstants",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftAccessObjcConstants.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Claus Weymann/SwiftAccessObjcConstants",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Claus Weymann": "c.weymann@avm.de"
+  },
+  "source": {
+    "git": "https://github.com/Claus Weymann/SwiftAccessObjcConstants.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.3"
+  },
+  "source_files": "SwiftAccessObjcConstants/Classes/**/*",
+  "dependencies": {
+    "ObjcConstants": [
+      "0.1.0"
+    ]
+  }
+}

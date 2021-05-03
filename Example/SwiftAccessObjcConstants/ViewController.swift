@@ -7,10 +7,21 @@
 //
 
 import UIKit
+import SwiftAccessObjcConstants
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+	@IBOutlet weak var staticStringLabel: UILabel! {
+		didSet {
+			staticStringLabel.text = StringProvider.staticString
+		}
+	}
+	
+	@IBOutlet weak var externStringLabel: UILabel! {
+		didSet {
+			externStringLabel.text = StringProvider.externString
+		}
+	}
+	override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

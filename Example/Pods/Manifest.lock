@@ -1,0 +1,23 @@
+PODS:
+  - ObjcConstants (0.1.0)
+  - SwiftAccessObjcConstants (0.1.0):
+    - ObjcConstants (= 0.1.0)
+
+DEPENDENCIES:
+  - SwiftAccessObjcConstants (from `../`)
+
+SPEC REPOS:
+  "/Users/cweymann/workspace/Lab/localPrivateRepo.git":
+    - ObjcConstants
+
+EXTERNAL SOURCES:
+  SwiftAccessObjcConstants:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjcConstants: 8c144ab7f4e09872d8dbc6c768d8e93339e01fac
+  SwiftAccessObjcConstants: d5645a8c1468d343c98911ad75553f7f51d9a6a0
+
+PODFILE CHECKSUM: 24249e06fc0749662f0ca30d09b7383e684c3246
+
+COCOAPODS: 1.10.1

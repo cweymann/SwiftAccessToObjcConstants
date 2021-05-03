@@ -1,0 +1,6 @@
+module SwiftAccessObjcConstants {
+  umbrella header "SwiftAccessObjcConstants-umbrella.h"
+
+  export *
+  module * { export * }
+}
